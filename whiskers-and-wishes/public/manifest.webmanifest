@@ -1,0 +1,12 @@
+{
+  "name": "Whiskers & Wishes",
+  "short_name": "Whiskers",
+  "description": "Uma pequena aventura mágica cheia de gatinhos.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#203c35",
+  "theme_color": "#203c35",
+  "icons": [
+    { "src": "./assets/icons/cat.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

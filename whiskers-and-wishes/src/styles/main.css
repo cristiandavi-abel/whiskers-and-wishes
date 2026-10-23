@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;800;900&display=swap');
+
+:root {
+  color-scheme: dark;
+  font-family: 'Nunito', system-ui, sans-serif;
+  background: #172c28;
+  color: #fff4df;
+}
+* { box-sizing: border-box; }
+html, body, #game {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+body {
+  background: radial-gradient(ellipse at top, #36584a 0%, #172c28 70%);
+  touch-action: none;
+  user-select: none;
+}
+canvas { display: block; image-rendering: pixelated; }
