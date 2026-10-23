@@ -2,15 +2,32 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
     <meta name="theme-color" content="#203c35" />
-    <meta name="description" content="Uma pequena aventura mágica cheia de gatinhos, segredos e carinho." />
+    <meta name="description" content="Whiskers & Wishes — uma pequena aventura mágica cheia de gatinhos, estrelinhas, segredos e carinho. Feita para alguém muito especial." />
+    <meta name="author" content="Cristian" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Whiskers" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Whiskers & Wishes" />
+    <meta property="og:description" content="Uma aventura feita de carinho, gatinhos e estrelinhas." />
+    <meta property="og:image" content="./assets/icons/icon-512.png" />
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="icon" type="image/svg+xml" href="./assets/icons/cat.svg" />
-    <title>Whiskers & Wishes</title>
+    <link rel="icon" type="image/png" sizes="192x192" href="./assets/icons/icon-192.png" />
+    <link rel="apple-touch-icon" href="./assets/icons/icon-192.png" />
+    <title>Whiskers &amp; Wishes</title>
   </head>
   <body>
-    <div id="game"></div>
+    <div id="game" aria-label="Jogo Whiskers &amp; Wishes"></div>
+    <div id="boot-splash" role="status" aria-live="polite">
+      <div class="boot-cat" aria-hidden="true">🐈</div>
+      <p class="boot-title">Whiskers &amp; Wishes</p>
+      <p class="boot-sub">acendendo as estrelinhas...</p>
+    </div>
+    <noscript>Este jogo precisa de JavaScript habilitado para funcionar.</noscript>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
